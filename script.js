@@ -132,3 +132,5 @@ document.querySelectorAll('.fi, .edu-item').forEach(el => obs.observe(el));
 document.querySelectorAll('.edu-item').forEach((el, i) => {
   el.style.transitionDelay = `${i * 0.08}s`;
 });
+
+
